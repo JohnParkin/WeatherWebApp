@@ -1,0 +1,206 @@
+﻿#content-section {
+    height: 95%;
+    width: 100%;
+}
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+    color: #0366d6;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    font-family: Tahoma;
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    background-image: url("../img/Newquay.jfif");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    margin-left: 0%;
+    margin-right: 5%;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px; /* Vertically center the text there */
+    background-color: cadetblue;
+}
+
+.header {
+    background-color: cadetblue;
+}
+
+/* Table Styles
+-------------------------------------------------- */
+.weather-table-container {
+    box-shadow: 0 0 14px 12px rgba(52, 52, 52, 0.132);
+    border-radius: 8px;
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.weather-table {
+    margin: 0px;
+}
+
+    .weather-table .text-sm {
+        font-size: 0.8em;
+    }
+
+
+/* Chart Styles
+-------------------------------------------------- */
+
+form.chartForm {
+    min-width: 800px;
+    margin-left: 10px;
+    float: left;
+}
+
+.chart-select-form {
+    width: 95%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 20px;
+}
+
+.chart-container select {
+    background-color: rgb(195 195 195 / 0.20);
+    font-weight: bold;
+    border-color: white;
+    color: cadetblue;
+}
+
+.chartTitle {
+    min-width: 45%;
+    margin-left: 5%;
+    margin-right: 10%;
+}
+
+    .chartTitle h3 {
+        color: lightgray;
+    }
+
+.chart-container svg {
+    margin-top: 20px;
+}
+
+.chart-container {
+    background-color: rgba(0, 0, 0, 0.694);
+    padding: 10px 2%;
+    border-radius: 10px;
+}
+
+.x-axis path, .y-axis path,
+.x-axis line, .y-axis line {
+    stroke: white;
+}
+
+#current-data-circle {
+    animation: chartlatestflash 2s infinite 0s alternate;
+}
+
+
+@keyframes chartlatestflash {
+    from {
+        opacity: 25%
+    }
+
+    to {
+        top: 100%
+    }
+}
+
+.form-row {
+    min-width: 800px;
+}
+
+/* Scrollbar Styles
+-------------------------------------------------- */
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: lightgray;
+    border-radius: 8px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #508486;
+    border-radius: 4px;
+}
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: cadetblue;
+        border-radius: 4px;
+    }

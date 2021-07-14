@@ -1,0 +1,54 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@{
+    Layout = null;
+}
+<link href="~/css/landscapeFeed.css" rel="stylesheet" />
+<body>
+    <div id="seaState">
+        <div id="header">
+            <div id="jet-eng-logo">
+                <img src="~/img/Jet_Logo.png" alt="jet-eng-logo" style="width:250px;" />
+            </div>
+
+            <div id="headBanner">
+                <h1>
+                    Sea State & Tidal Information
+                </h1>
+            </div>
+        </div>
+        <div class="center" id="dynamic-panel">
+            <div id="weather-forecast-panel" class="carousel-element fade">
+                <div class="weather-panel">
+                    @*<h3 id="MetHeader">Forecast for Model.ForecastTime: Model.WeatherTypeStr</h3>*@
+                    <h3 id="MetHeader">Forecast for 12:00: Wobbly</h3>
+                    <div class="line"></div>
+                    <br />
+                </div>
+
+                <div class="column-left">
+                    <p class="titleleft">Temperature:</p> <p class="valueleft" id="MetTemp">12.3 °C</p>@*Model.Temperature °C </p>*@
+                    <p class="titleleft">Chance Of Rain:</p> <p class="valueleft" id="MetRainProb">0 % </p>@*Model.PrecipitationProbability% </p>*@
+                    <p class="titleleft">Wind:</p> <p class="valueleft" id="windSpeed"> 12 (mph) NNW</p>
+                </div>
+                <div class="column-right">
+                    <span class="titleright">Feels Like:</span><span class="valueright" id="feelsLikeTemperature">9 °C</span>
+                    <span class="titleright">Humidity:</span><span class="valueright" id="screenRelativeHumidity">80%</span>
+                    <span class="titleright">Gusting:</span><span class="valueright" id="windGust"> 15 (mph)</span>
+                </div>
+                <div class="column-bottom">
+                    <p class="titleleft">Visabiliy:</p><p class="valueleft" id="visabilityStr">Good</p>
+                </div>
+                @*<div class="column-left">
+                        <p class="titleleft">Forecast For:</p><p class="valueleft">@Model.ForecastTime</p>
+                    </div>*@
+                <div class="column-left">
+                    <p class="titleleft">Updated:</p><p class="valueleft" id="dataDate">18:47</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/js/site.js"></script>

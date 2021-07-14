@@ -1,0 +1,359 @@
+﻿body {
+    margin: 0;
+    padding:0; 
+    width: 960px;
+    max-width: 960px;
+    display:inline-block;
+}
+#seaState {
+    background-image: url('../img/landscape_zone B_feed.png' );
+    height: 600px;
+    width: 960px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#jet-eng-logo{
+    width: 150px;
+    margin-right:0px;
+}
+
+#jet-eng-logo img{
+    height: 70px;
+    margin-left:14px;
+    margin-top: 10px;
+}
+
+    #jet-eng-logo h5 {
+        color: white;
+        font-family: Monserrat, Tahoma;
+        font-weight: 500;
+        font-size: 24px;
+        margin-top: 10px;
+    }
+
+h1 {
+    float: right;
+    width:500px;
+    margin-top: 16px;
+    margin-right: 16px;
+    margin-left:16px;
+    font-family: Monserrat, Tahoma;
+    font-size: 38px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 42px;
+    padding-top: 20px;
+}
+
+#surf-report {
+    font-size: 28px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+#headBanner {
+    position:absolute;
+    top:0;
+    left:380px;
+    /*        background-color: #c5da39;*/
+    background-image: linear-gradient(to right, rgba(255,0,0,0), #c5da39);
+    width: 580px;
+    height: 80px;
+}
+
+#dynamic-panel {
+    position: absolute;
+    height: 385px;
+    width: 666px;
+    top: 50px;
+    -ms-transform: translateY(50px);
+    transform: translateY(50px);
+    left: 140px;
+    min-height: 40%;
+    text-align: center;
+    background-color: rgba(195, 191, 191, 0.6);
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 5px 10px rgb(0, 0, 0, 0.35);
+}
+
+#time-date-panel {
+    margin-left: 100px;
+    margin-top: 30px;
+    font-family: Monserrat, Tahoma;
+    color: white;
+    width: 300px;
+}
+
+    #time-date-panel h3 {
+        margin: 4px;
+        font-size: 42px;
+        font-weight: 100;
+        text-align: center;
+    }
+
+#inflatables-prohibition img {
+    float: left;
+    height: 260px;
+    margin-top: 55px;
+    margin-left: 50px;
+    border-radius: 6px;
+}
+
+#inflatables-prohibition .prohibition-text {
+    width: 280px;
+    height: 260px;
+    float: right;
+    margin-top: 55px;
+    margin-right: 50px;
+    font-size: 34px;
+    text-align: center;
+    color: white;
+    background-color: #eb000f;
+    border-radius: 8px;
+}
+
+#donotenter-prohibition img {
+    float: left;
+    height: 260px;
+    margin-top: 55px;
+    margin-left: 50px;
+    border-radius: 6px;
+}
+
+#donotenter-prohibition .prohibition-text {
+    width: 280px;
+    height: 260px;
+    float: right;
+    margin-top: 55px;
+    margin-right: 50px;
+    font-size: 34px;
+    text-align: center;
+    color: white;
+    background-color: #eb000f;
+    border-radius: 8px;
+}
+
+    #donotenter-prohibition .prohibition-text h3 {
+        margin-top: 20px;
+        margin-bottom: 15px;
+        font-family: Tahoma;
+    }
+
+#seatemp {
+    font-size: 68px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#wc-widgets div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 2.5s;
+    animation-name: fade;
+    animation-duration: 2.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+#lulworth-cove-title {
+    position: fixed;
+    top: 0px;
+    left: 240px;
+    width: 200px;
+    font-family: Tahoma;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top:46px;
+    color:#414141
+}
+#lulworth-cove-iframe iframe {
+    margin-left:-80px;
+}
+
+    #lulworth-cove-iframe iframe {
+    margin-top: 10px;
+    width: 950px;
+    height: 320px;
+    -moz-transform: scale(1.2, 1.2);
+    -webkit-transform: scale(1.2, 1.2);
+    -o-transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.2, 1.2);
+    transform: scale(1.2, 1.2);
+    -moz-transform-origin: top left;
+    -webkit-transform-origin: top left;
+    -o-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+    border: none;
+    overflow:hidden;
+}
+
+/*Weather Forecast CSS*/
+
+.weather-panel h3 {
+    color: dimgrey;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    font-family: Monserrat, Tahoma;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.titleleft {
+    float: left;
+    color: dimgrey;
+    margin-left: 70px;
+    margin-bottom: 17px;
+    font-family: Monserrat, Tahoma;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 3px;
+}
+
+.valueleft {
+    float: left;
+    color: white;
+    margin-left: 24px;
+    font-family: Monserrat, Tahoma;
+    font-size: 26px;
+    font-weight: 500;
+    margin-left: 8px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-right: 30px;
+}
+
+.titleright {
+    float: left;
+    color: dimgrey;
+    margin-top: 3px;
+    margin-left: 32px;
+    margin-bottom: 20px;
+    font-family: Monserrat, Tahoma;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.valueright {
+    float: left;
+    color: white;
+    margin-left: 24px;
+    margin-bottom: 20px;
+    font-family: Monserrat, Tahoma;
+    font-size: 26px;
+    font-weight: 500;
+    margin-left: 8px;
+    margin-top: 0px;
+    margin-right: 10px;
+    width: 120px;
+    text-align: left;
+}
+
+.titlecenter {
+    color: dimgrey;
+    font-family: Monserrat, Tahoma;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 3px;
+}
+
+.valuecenter {
+    color: white;
+    margin-left: 14px;
+    font-family: Monserrat, Tahoma;
+    font-size: 26px;
+    font-weight: 500;
+    margin-left: 8px;
+    margin-top: 0px;
+    margin-right: 80px;
+}
+
+.line {
+    margin-left: 45px;
+    margin-top: 0px;
+    width: 560px;
+    height: 15px;
+    border-bottom: 1px solid white;
+}
+
+.column-left {
+    float: left;
+    width: 55%;
+}
+
+.column-right {
+    float: left;
+    width: 45%;
+}
+
+.column-bottom {
+    float: left;
+    width: 80%;
+}
+
+/*tide times CSS*/
+#tides-chart {
+    width: 480px;
+    height: 380px;
+}
+
+#tides-chart h3 {
+    width: 100%;
+    color: dimgrey;
+    margin-top: 0px;
+    margin-bottom: 12px;
+    font-family: Monserrat, Tahoma;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+#tides-chart {
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+    #tides-chart iframe {
+        margin-top: 20px;
+        width: 1000px;
+        height: 400px;
+        -moz-transform: scale(0.57, 0.8);
+        -webkit-transform: scale(0.57, 0.8);
+        -o-transform: scale(0.57, 0.8);
+        -ms-transform: scale(0.57, 0.8);
+        transform: scale(0.57, 0.8);
+        -moz-transform-origin: top left;
+        -webkit-transform-origin: top left;
+        -o-transform-origin: top left;
+        -ms-transform-origin: top left;
+        transform-origin: top left;
+        border: none;
+    }
